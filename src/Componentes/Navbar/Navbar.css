@@ -17,26 +17,16 @@ nav {
 
 .menu li a {
   text-decoration: none;
-  color: #fff;
+  color: #000;
   font-weight: 300;
-  padding: 5px 10px;
-  margin-left: 20px;
-}
-
-.menu li:last-child a {
-  font-weight: 300;
-  padding: 5px 10px;
-  background-color: #ae6d17;
-  transition: all 0.5s ease-in-out;
-  margin-left: 20px;
-  border-radius: 2px;
+  padding: 5px 20px;
+  margin-left: 30px;
 }
 
 .menu li a:hover,
 .menu li a.active {
-  background-color: #ffe082;
-  border-radius: 2px;
-  color: #000;
+  background-color: transparent;
+  color: rgb(126, 90, 90);
   transition: all 0.5s ease-in-out;
 }
 
