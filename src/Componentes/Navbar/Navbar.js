@@ -1,32 +1,64 @@
 import React, {useState} from 'react';
 import './Navbar.css';
-import {Menu} from './Menu';
-import {NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import { FaBars, FaTimes } from 'react-icons/fa';
+import { IconContext } from 'react-icons/lib';
 
-const Navbar = () => {
-    const [clicked, setClicked] = useState(false);
-const menu= Menu.map(({url, title}, index) => {
-    return (
-        <li key={index}>
-            <NavLink exact to={url} activeClassName="active">{title}</NavLink>
-        </li>
-    );
-});
+function Navbar() {
+    const [click, setClick] = useState(false);
 
-const handleClick = () => {
-    setClicked(!clicked);
-}
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+
 return (
- <nav>
-     <div className="logo">
-         
-     </div>
-     <div className="menu-icon" onClick={handleClick}>
-         <i className={clicked ? "fas fa-angle-down" : "fas fa-seedling"}></i>
-         
-     </div>
-     <ul className={clicked ? "menu" : "menu close"}>{menu}</ul>
- </nav>
+ <>
+   <IconContext.Provider value={{ color: '#fff' }}>
+        <nav className='navbar'>
+          <div className='navbar-container container'>
+            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+              S3LF
+            </Link>
+            <div className='menu-icon' onClick={handleClick}>
+              {click ? <FaTimes /> : <FaBars />}
+            </div>
+            <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+              <li className='nav-item'>
+                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                  S3LF
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/quemsomos'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Quem Somos
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/serviços'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Serviços
+                </Link>
+              </li>
+              <li className='nav-item'>
+                <Link
+                  to='/contactos'
+                  className='nav-links'
+                  onClick={closeMobileMenu}
+                >
+                  Contactos
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </IconContext.Provider>
+ </>
 );
 };
 
