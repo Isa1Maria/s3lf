@@ -1,11 +1,11 @@
 nav {
-  background: #1c2237;
+  background: rgb(47, 54, 85);
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
-  position: sticky;
+  position: relative;
   top: 0;
   z-index: 999;
 }
@@ -17,13 +17,13 @@ nav {
 }
 
 .container {
-  z-index: 1;
+  z-index: 99;
   width: 100%;
-  max-width: 1500px;
+  max-width: 1300px;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .navbar-logo {
@@ -43,7 +43,7 @@ nav {
 .nav-menu {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   list-style: none;
   text-align: center;
 }
@@ -54,7 +54,7 @@ nav {
 }
 
 .nav-item:hover {
-  border-bottom: 2px solid #f00946;
+  border-bottom: none;
 }
 
 .nav-links {
