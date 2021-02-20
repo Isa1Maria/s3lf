@@ -12,7 +12,7 @@ function Navbar() {
 
 return (
  <>
-   <IconContext.Provider value={{ color: '#fff' }}>
+   <IconContext.Provider value={{ color: '#874b27' }}>
         <nav className='navbar'>
           <div className='navbar-container container'>
             <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
@@ -22,11 +22,7 @@ return (
               {click ? <FaTimes /> : <FaBars />}
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-              <li className='nav-item'>
-                <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                  S3LF
-                </Link>
-              </li>
+            
               <li className='nav-item'>
                 <Link
                   to='/quemsomos'
