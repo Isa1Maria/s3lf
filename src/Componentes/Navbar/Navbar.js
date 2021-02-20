@@ -1,8 +1,9 @@
 import React, {useState} from 'react';
 import './Navbar.css';
 import {Link} from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
+import { IoMdMenu, IoMdClose } from "react-icons/io";;
+
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -19,7 +20,7 @@ return (
               S3LF
             </Link>
             <div className='menu-icon' onClick={handleClick}>
-              {click ? <FaTimes /> : <FaBars />}
+              {click ? <IoMdClose /> : <IoMdMenu />}
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             
