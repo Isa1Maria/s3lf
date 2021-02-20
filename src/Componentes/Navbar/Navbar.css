@@ -36,7 +36,7 @@ nav {
 }
 
 .navbar-icon {
-  margin-right: 0.5rem;
+  margin-right: 0.1rem;
 }
 
 .nav-menu {
@@ -60,8 +60,10 @@ nav {
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.1rem 3rem;
   height: 100%;
+  font-family: 'Commissioner', sans-serif;
+  font-weight: 400;
 }
 
 .nav-links:hover {
@@ -79,17 +81,16 @@ nav {
 
 @media screen and (max-width: 960px) {
   .NavbarItems {
-    position: relative;
+    position: block;
   }
 
   .nav-menu {
-    display: flex;
     flex-direction: column;
     width: 100%;
     height: 90vh;
     position: absolute;
     top: 80px;
-    left: -100%;
+    left: 100%;
     opacity: 1;
     transition: all 0.5s ease-in-out;
   }
@@ -98,29 +99,26 @@ nav {
     background: #b3825a;
     left: 0;
     opacity: 1;
-    transition: all 0.6s ease;
+    transition: all 0.5s ease;
     z-index: 1;
   }
 
   .nav-links {
     text-align: center;
     color: #fff;
-    padding: 5px;
+    padding: 10px;
+    margin: 10px;
     width: 100%;
-    display: table;
+    display: block;
   }
 
   .nav-links:hover {
     transform: scale(1.1);
-    transition: all 0.3s ease;
+    transition: all 0.5s ease;
   }
 
   .nav-item:hover {
     border: none;
-  }
-
-  .nav-item {
-    width: 100%;
   }
 
   .navbar-logo {
