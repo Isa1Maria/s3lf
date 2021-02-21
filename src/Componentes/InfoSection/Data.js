@@ -1,0 +1,15 @@
+export const homeObjOne = {
+    id: 'quemsomos',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Premium Bank',
+    headline: 'Unlimited health',
+    description: 'Get access to our trainers',
+    imgStart: false,
+    img: require('../../Images/S3LF.jpg'),
+    alt: 'health',
+    dark: true,
+    primary: true,
+    darkText: false,
+}

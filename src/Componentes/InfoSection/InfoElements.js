@@ -83,3 +83,14 @@ font-size: 18px;
 line-height: 24px;
 color: ${({darkText}) => (darkText ? '#010606' : '#fff')}
 `
+
+export const ImgWrap = styled.div`
+max-width: 555px;
+height: 100%;
+`
+
+export const Img = styled.img`
+width: 100%;
+margin: 0 0 10px 0;
+padding-right: 0;
+`
