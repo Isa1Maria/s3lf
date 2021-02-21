@@ -72,11 +72,13 @@ margin-bottom: 64px;
 `
 
 export const ServicesH2 = styled.h2`
-font-size: 1rem;
+font-size: 1.1rem;
 margin-bottom: 10px;
+color: #224a7c;
 `
 
 export const ServicesP = styled.p`
-font-size: 1rem;
+font-size: 0.8rem;
 text-align: center;
+color: #6b9ad4;
 `

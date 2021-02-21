@@ -9,32 +9,32 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon />
                     <ServicesH2>Ginástica Laboral</ServicesH2>
-                    <ServicesP>Hello hello hello </ServicesP>
+                    <ServicesP>SAIBA MAIS</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon />
                     <ServicesH2>Aulas de Pilates/Yoga</ServicesH2>
-                    <ServicesP>Hello hello hello </ServicesP>
+                    <ServicesP>SAIBA MAIS </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon />
                     <ServicesH2>Psicologia Positiva</ServicesH2>
-                    <ServicesP>Hello hello hello </ServicesP>
+                    <ServicesP>SAIBA MAIS </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon />
                     <ServicesH2>Sessões Específicas</ServicesH2>
-                    <ServicesP>Hello hello hello </ServicesP>
+                    <ServicesP>SAIBA MAIS</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon />
                     <ServicesH2>Serviços Online</ServicesH2>
-                    <ServicesP>Hello hello hello </ServicesP>
+                    <ServicesP>SAIBA MAIS </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon />
                     <ServicesH2>Aulas a clientes particulares</ServicesH2>
-                    <ServicesP>Hello hello hello </ServicesP>
+                    <ServicesP>SAIBA MAIS </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>
             
