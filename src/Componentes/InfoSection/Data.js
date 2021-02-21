@@ -6,10 +6,62 @@ export const homeObjOne = {
     topLine: 'Premium Bank',
     headline: 'Unlimited health',
     description: 'Get access to our trainers',
+    buttonLabel: 'Start Now',
     imgStart: false,
     img: require('../../Images/S3LF.jpg'),
     alt: 'health',
     dark: true,
     primary: true,
     darkText: false,
-}
+};
+
+export const homeObjTwo = {
+    id: 'serviços',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Premium Bank',
+    headline: 'Unlimited health',
+    description: 'Get access to our trainers',
+    buttonLabel: 'Start Now',
+    imgStart: false,
+    img: require('../../Images/S3LF.jpg'),
+    alt: 'health',
+    dark: false,
+    primary: false,
+    darkText: true,
+};
+
+export const homeObjThree = {
+    id: 'testemunhos',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Premium Bank',
+    headline: 'Unlimited health',
+    description: 'Get access to our trainers',
+    buttonLabel: 'Start Now',
+    imgStart: false,
+    img: require('../../Images/S3LF.jpg'),
+    alt: 'health',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+
+export const homeObjFour = {
+    id: 'contactos',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Premium Bank',
+    headline: 'Unlimited health',
+    description: 'Get access to our trainers',
+    buttonLabel: 'Start Now',
+    imgStart: false,
+    img: require('../../Images/S3LF.jpg'),
+    alt: 'health',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
