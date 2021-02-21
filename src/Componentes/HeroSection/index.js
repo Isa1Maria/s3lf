@@ -9,8 +9,8 @@ const HeroSection = () => {
     return (
         <HeroContainer>
         <HeroContent>
-            <HeroH1>Virtual Banking Made Easy</HeroH1>
-            <HeroP>Start today!</HeroP>
+            <HeroH1>S3LF</HeroH1>
+            <HeroP>Self Conscious, Self Improvement, Self Sufficient</HeroP>
     
         </HeroContent>
         </HeroContainer>

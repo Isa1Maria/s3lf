@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from 'react';
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks } from './NavbarElements';
-import {FaBars} from 'react-icons/fa';
+import {IoMdMenu} from 'react-icons/io';
 import {IconContext} from 'react-icons/lib';
 import {animateScroll as scroll} from 'react-scroll';
+import logo from '../../Images/logo.png';
 
 
 const Navbar = ({toggle}) => {
@@ -29,12 +30,13 @@ const toggleHome = () => {
 
     return (
         <>
-        <IconContext.Provider value={{color: '#fff'}}>
+        <IconContext.Provider value={{color: '#b3825a'}}>
         <Nav scrollNav={scrollNav}>
             <NavbarContainer>
-               <NavLogo to="/" onClick={toggleHome}> S3LF </NavLogo> 
+               <NavLogo to="/" onClick={toggleHome}><img src={logo} width={100}
+  height={40} alt="Logo" /> </NavLogo> 
                <MobileIcon onClick={toggle}>
-                   <FaBars />
+                   <IoMdMenu />
                </MobileIcon>
                <NavMenu>
                    <NavItem>

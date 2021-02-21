@@ -4,26 +4,36 @@ import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIc
 const Services = () => {
     return (
         <ServicesContainer id="services">
-            <ServicesH1>Our Services</ServicesH1>
+            <ServicesH1>Serviços</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon />
-                    <ServicesH2>Reduce expenses</ServicesH2>
+                    <ServicesH2>Ginástica Laboral</ServicesH2>
                     <ServicesP>Hello hello hello </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon />
-                    <ServicesH2>Reduce expenses</ServicesH2>
+                    <ServicesH2>Aulas de Pilates/Yoga</ServicesH2>
                     <ServicesP>Hello hello hello </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon />
-                    <ServicesH2>Reduce expenses</ServicesH2>
+                    <ServicesH2>Psicologia Positiva</ServicesH2>
                     <ServicesP>Hello hello hello </ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon />
-                    <ServicesH2>Reduce expenses</ServicesH2>
+                    <ServicesH2>Sessões Específicas</ServicesH2>
+                    <ServicesP>Hello hello hello </ServicesP>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon />
+                    <ServicesH2>Serviços Online</ServicesH2>
+                    <ServicesP>Hello hello hello </ServicesP>
+                </ServicesCard>
+                <ServicesCard>
+                    <ServicesIcon />
+                    <ServicesH2>Aulas a clientes particulares</ServicesH2>
                     <ServicesP>Hello hello hello </ServicesP>
                 </ServicesCard>
             </ServicesWrapper>

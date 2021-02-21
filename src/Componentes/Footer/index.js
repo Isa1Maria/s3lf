@@ -1,6 +1,7 @@
 import React from 'react';
-import { FaLinkedin, FaFacebook } from 'react-icons/fa';
-import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from './FooterElements';
+
+import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, WebsiteRights} from './FooterElements';
+
 
 const Footer = () => {
     return (
@@ -9,47 +10,26 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle> Quem Somos </FooterLinkTitle>    
+                        <FooterLinkTitle>S3LF</FooterLinkTitle>  
+                            <FooterLink> Quem Somos </FooterLink>    
                             <FooterLink to='/'> Serviços </FooterLink>
                             <FooterLink to='/'> Testemunhos </FooterLink>
                             <FooterLink to='/'> Contactos </FooterLink> 
                          </FooterLinkItems>  
-                         <FooterLinkItems>
-                            <FooterLinkTitle> Quem Somos </FooterLinkTitle>    
-                            <FooterLink to='/'> Serviços </FooterLink>
-                            <FooterLink to='/'> Testemunhos </FooterLink>
-                            <FooterLink to='/'> Contactos </FooterLink> 
+                         <FooterLinkItems>  
+                             <FooterLinkTitle>Contactos</FooterLinkTitle>  
+                            <FooterLink to='/'> pedrompereira@sapo.pt </FooterLink>
+                            <FooterLink to='/'> +351 960 146 485 </FooterLink>
+                            <FooterLink to='/'> linkedin.com/in/pedro-pereira </FooterLink> 
                          </FooterLinkItems>    
                     </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle> Quem Somos </FooterLinkTitle>    
-                            <FooterLink to='/'> Serviços </FooterLink>
-                            <FooterLink to='/'> Testemunhos </FooterLink>
-                            <FooterLink to='/'> Contactos </FooterLink> 
-                         </FooterLinkItems>  
-                         <FooterLinkItems>
-                            <FooterLinkTitle> Quem Somos </FooterLinkTitle>    
-                            <FooterLink to='/'> Serviços </FooterLink>
-                            <FooterLink to='/'> Testemunhos </FooterLink>
-                            <FooterLink to='/'> Contactos </FooterLink> 
-                         </FooterLinkItems>    
-                    </FooterLinksWrapper>
+                    
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/'>
-                         S3LF
-                        </SocialLogo>
-                        <WebsiteRights>S3LF {new Date().getFullYear()} All rights reserved.</WebsiteRights>
-                        <SocialIcons>
-                            <SocialIconLink href='/' target="_blank" aria-label="Facebook">
-                                <FaFacebook />
-                            </SocialIconLink>
-                            <SocialIconLink href='/' target="_blank" aria-label="Linkedin">
-                                <FaLinkedin />
-                            </SocialIconLink>
-                        </SocialIcons>
+                       
+                        <WebsiteRights> º {new Date().getFullYear()} S3LF - Self Conscious, Self Improvement, Self Sufficient - All rights reserved.</WebsiteRights>
+    
                     </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>    

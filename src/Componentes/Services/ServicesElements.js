@@ -6,7 +6,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-background: #010606;
+background: #fff;
 
 @media screen and (max-width: 768px) {
     height: 1100px;
@@ -57,13 +57,13 @@ transition: all 0.2s ease-in-out;
 
 export const ServicesIcon = styled.img`
 height: 160px;
-width: 160px;
+width: 200px;
 margin-bottom: 10px;
 `
 
 export const ServicesH1 = styled.h1`
 font-size: 2.5rem;
-color: #fff;
+color: #15315a;
 margin-bottom: 64px;
 
 @media screen and (max-width: 480px) {

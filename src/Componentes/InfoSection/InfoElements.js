@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
 color: #fff;
-background: ${({lightBg}) => (lightBg ? '#f9f9f9' : '#010606')};
+background: #f9f9f9;
 
 @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -55,7 +55,7 @@ padding-bottom: 60px;
 `
 
 export const TopLine = styled.p`
-color: #01bf71;
+color: #b3825a;
 font-size: 16px;
 line-height: 16px;
 font-weight: 500;
@@ -77,7 +77,7 @@ color: ${({lightText}) => (lightText ? '#f7f8fa' : '#010606')};
 `
 
 export const Subtitle = styled.p`
-max-width: 440px;
+max-width: 880px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;
