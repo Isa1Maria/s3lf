@@ -59,7 +59,7 @@ export const homeObjFour = {
     description: 'Get access to our trainers',
     buttonLabel: 'Start Now',
     imgStart: false,
-    img: require('../../Images/S3LF.jpg'),
+    img: require('../../Images/S3LF.jpg').default,
     alt: 'health',
     dark: true,
     primary: true,
