@@ -18,9 +18,9 @@ const Footer = () => {
                          </FooterLinkItems>  
                          <FooterLinkItems>  
                              <FooterLinkTitle>Contactos</FooterLinkTitle>  
-                            <FooterLink to='/'> pedrompereira@sapo.pt </FooterLink>
+                            <FooterLink to='/'> s3lf2020@gmail.com </FooterLink>
                             <FooterLink to='/'> +351 960 146 485 </FooterLink>
-                            <FooterLink to='/'> linkedin.com/in/pedro-pereira </FooterLink> 
+                            <FooterLink to='/'> linkedin.com/in/s3lf </FooterLink> 
                          </FooterLinkItems>    
                     </FooterLinksWrapper>
                     
