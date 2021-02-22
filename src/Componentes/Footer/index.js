@@ -1,5 +1,5 @@
 import React from 'react';
-
+import {RiCopyrightLine} from 'react-icons/ri';
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, WebsiteRights} from './FooterElements';
 
 
@@ -28,7 +28,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                        
-                        <WebsiteRights> º {new Date().getFullYear()} S3LF - Self Conscious, Self Improvement, Self Sufficient - All rights reserved.</WebsiteRights>
+                        <WebsiteRights> <RiCopyrightLine/> {new Date().getFullYear()} S3LF - Self Conscious, Self Improvement, Self Sufficient - All rights reserved.</WebsiteRights>
     
                     </SocialMediaWrap>
                 </SocialMedia>
