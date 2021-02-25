@@ -1,0 +1,59 @@
+.hero-container {
+  background: url('/Images/s3lf.jpg') center center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30 px;
+  height: 800px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-container > h1 {
+  color: #b3825a;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero-container > p {
+  margin-top: 24px;
+  color: #b3825a;
+  font-size: 24px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.hero-btns {
+  margin-top: 32px;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
