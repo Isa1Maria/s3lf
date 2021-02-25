@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {IoMdMenu} from 'react-icons/io';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../../Images/logo.png';
@@ -19,7 +18,7 @@ const closeMobileMenu = () => setClick(false);
                <Link classname='nav-logo' to="/" onClick={closeMobileMenu}><img src={logo} width={100}
   height={40} alt="Logo" /> </Link> 
                <div className='menu-icon' onClick={handleClick}>
-                   <IoMdMenu />
+               <i className={click ? 'io md-close' : 'io md-menu'} />
                </div>
                <ul className={click ? 'nav-menu-active' : 'nav-menu'}>
                    <li className='nav-item'>
