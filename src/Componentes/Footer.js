@@ -25,13 +25,11 @@ function Footer() {
                     </div>
                     
                 </div>
-                <SocialMedia>
-                    <SocialMediaWrap>
-                       
-                        <WebsiteRights> <RiCopyrightLine/> {new Date().getFullYear()} S3LF - Self Conscious, Self Improvement, Self Sufficient - All rights reserved.</WebsiteRights>
-    
-                    </SocialMediaWrap>
-                </SocialMedia>
+                <section className='social-media' >
+                <div class='social-media-wrap'>
+                        <small className='website-rights'> <RiCopyrightLine/> {new Date().getFullYear()} S3LF - Self Conscious, Self Improvement, Self Sufficient - All rights reserved.</small>
+    </div>
+                </section>
                
       </div>                 
     );
