@@ -1,5 +1,5 @@
 .navbar {
-  background: #fff;
+  background: transparent;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -19,7 +19,7 @@
 }
 
 .nav-logo {
-  position: absolute;
+  position: relative;
   justify-self: start;
   cursor: pointer;
   display: flex;
@@ -52,12 +52,12 @@
 }
 
 .nav-links:hover {
-  border-bottom: 4px solid #fff;
+  border-bottom: 2px solid #dab893;
   transition: all 0.2s ease-out;
 }
 
 .md-menu {
-  color: #fff;
+  color: transparent;
   font-size: 2rem;
 }
 
@@ -87,7 +87,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #dab893;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
