@@ -4,3 +4,32 @@
   box-sizing: border-box;
   font-family: 'Commissioner', sans-serif;
 }
+
+.home,
+.services,
+.products,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.services {
+  background-color: #fff;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-color: #fff;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-color: #fff;
+  color: #fff;
+  font-size: 100px;
+}

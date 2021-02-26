@@ -3,17 +3,11 @@
 }
 
 .btn {
-  padding: 12px 30px;
-  font-size: 20px;
+  padding: 8px 20px;
+  border-radius: 2px;
   outline: none;
   border: none;
   cursor: pointer;
-  border-radius: 50px;
-  background: #874b27;
-  white-space: nowrap;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .btn--primary {
