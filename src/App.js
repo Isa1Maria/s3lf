@@ -3,8 +3,8 @@ import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Central from './Componentes/Pages/Central';
 import QuemSomos from './Componentes/Pages/QuemSomos';
-import Serviços from './Componentes/Pages/Central';
-import Contactos from './Componentes/Pages/Central';
+import Serviços from './Componentes/Pages/Serviços';
+import Contactos from './Componentes/Pages/Contactos';
 import Footer from './Componentes/Footer';
 import Navbar from './Componentes/Navbar';
 
