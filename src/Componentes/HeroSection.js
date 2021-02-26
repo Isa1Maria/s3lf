@@ -7,8 +7,11 @@ import './HeroSection.css';
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <h1>S3LF</h1>
-            <p>Self Conscious, Self Improvement, Self Sufficient</p>
+            <p>Self Conscious</p>
+            <br />
+            <p> Self Improvement </p>
+            <br />
+            <p> Self Sufficient</p>
             <div className='hero-btns'>
         <Button
           className='btns'

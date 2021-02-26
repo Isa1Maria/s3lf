@@ -1,5 +1,5 @@
 .hero-container {
-  background: url('/Images/s3lf.jpg') center center/cover no-repeat;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
