@@ -1,6 +1,7 @@
 import React from 'react';
 import './Footer.css';
 import { Link } from 'react-router-dom';
+import { IoLogoLinkedin, IoLogoFacebook, IoIosAt, IoLogoInstagram } from "react-icons/io";
 
 function Footer() {
   return (
@@ -10,24 +11,25 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>SOBRE NÓS</h2>
-            <Link to='/sign-up'>Quem Somos</Link>
-            <Link to='/'>Serviços</Link>
+            <Link to='/quemsomos'>Quem Somos</Link>
+            <Link to='/serviços'>Serviços</Link>
             <Link to='/'>Testemunhos</Link>
-            <Link to='/'>Contactos</Link>
+            <Link to='/contactos'>Contactos</Link>
           </div>
           <div class='footer-link-items'>
             <h2>CONTACTOS</h2>
             <Link
               to='/'>
-                <i class='fab fa-instagram' /> E-mail</Link>
+                <IoIosAt/> s3lf2020@gmail.com</Link>
             <Link 
               to='/'>
-              <i class='fab fa-facebook-f' /> Facebook</Link>
+              <IoLogoFacebook/> facebook.com/s3lf</Link>
             <Link
-              to='/'> <i class='fab fa-instagram' /> Instagram</Link>
+              to='/'> <IoLogoInstagram/> instagram.com/s3lf</Link>
             <Link 
-              to='/'>
-              <i class='fab fa-linkedin' /> Linkedin</Link>
+              to='/'
+              >
+              <IoLogoLinkedin/> linkedin.com/s3lf</Link>
           </div>
         </div>
         

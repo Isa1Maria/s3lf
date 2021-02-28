@@ -1,18 +1,23 @@
 .cards {
-  padding: 4rem;
+  padding: 3rem;
   background: #fff;
 }
 
 h1 {
+  padding: 4rem;
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 48px;
+  color: #dab893;
 }
 
 .cards__container {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
-  width: 90%;
+  max-width: 1220px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -22,7 +27,7 @@ h1 {
 }
 
 .cards__items {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 
 .cards__item {
@@ -36,10 +41,10 @@ h1 {
   display: flex;
   flex-flow: column;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
+  box-shadow: 0 2px 3px #dab893;
+  -webkit-filter: drop-shadow(0 3px 10px #dab893);
+  filter: drop-shadow(0 6px 15px #dab893);
+  border-radius: 5px;
   overflow: hidden;
   text-decoration: none;
 }
@@ -51,11 +56,6 @@ h1 {
   overflow: hidden;
 }
 
-.fade-img {
-  animation-name: fade-img;
-  animation-duration: 2s;
-}
-
 .cards__item__pic-wrap::after {
   content: attr(data-category);
   position: absolute;
@@ -64,9 +64,8 @@ h1 {
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
   color: #fff;
-
   box-sizing: border-box;
 }
 
@@ -90,13 +89,15 @@ h1 {
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
+  padding: 80px 100px 70px;
 }
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
+  font-size: 17px;
   line-height: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
 }
 
 @media only screen and (min-width: 1200px) {

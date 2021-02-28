@@ -2,6 +2,8 @@ import React from 'react';
 import './Serviços.css';
 import CardItem from './CardItem';
 
+
+
 function Serviços() {
   return (
     <div className='cards'>
@@ -10,17 +12,18 @@ function Serviços() {
       <div className='cards__wrapper'>
         <ul className='cards__items'>
           <CardItem
-            src='images/img-3.jpg'
+            src='Images/img-3.jpg'
             text='Sessões específicas'
             path='/services'
           />
+        
           <CardItem
-            src='images/img-4.jpg'
+            src='serviço2.jpg'
             text='Serviços Online'
             path='/products'
           />
           <CardItem
-            src='images/img-8.jpg'
+            src='serviço1.jpg'
             text='Aulas a Clientes Privados'
             path='/sign-up'
           />
