@@ -17,51 +17,24 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>CONTACTOS</h2>
-            <Link to='/'>E-mail</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Linkedin</Link>
+            <Link
+              to='/'>
+                <i class='fab fa-instagram' /> E-mail</Link>
+            <Link 
+              to='/'>
+              <i class='fab fa-facebook-f' /> Facebook</Link>
+            <Link
+              to='/'> <i class='fab fa-instagram' /> Instagram</Link>
+            <Link 
+              to='/'>
+              <i class='fab fa-linkedin' /> Linkedin</Link>
           </div>
         </div>
         
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              TRVL
-              <i class='fab fa-typo3' />
-            </Link>
-          </div>
-          <small class='website-rights'>S3LF © 2020</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link facebook'
-              to='/'
-              target='_blank'
-              aria-label='Facebook'
-            >
-              <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
-              class='social-icon-link instagram'
-              to='/'
-              target='_blank'
-              aria-label='Instagram'
-            >
-              <i class='fab fa-instagram' />
-            </Link>
-           
-           
-            <Link
-              class='social-icon-link twitter'
-              to='/'
-              target='_blank'
-              aria-label='LinkedIn'
-            >
-              <i class='fab fa-linkedin' />
-            </Link>
-          </div>
+          <small class='website-rights'> © 2020 S3LF - Self Conscious, Self Improvement, Self Sufficient</small>
         </div>
       </section>
     </div>

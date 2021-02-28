@@ -47,9 +47,19 @@ function Navbar() {
                 Contactos 
               </Link>
             </li>
-
           </ul>
-         
+         <div className='language'>
+         <Link
+                to='/'
+              >
+                PT | 
+              </Link>
+              <Link
+                to='/'
+              >
+                 EN
+              </Link>
+         </div>
         </div>
       </nav>
     </>
