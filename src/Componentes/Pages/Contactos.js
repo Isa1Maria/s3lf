@@ -1,5 +1,5 @@
 import React from 'react';
-import emailjs from 'emailjs';
+import emailjs from 'emailjs-com';
 import '../../App.css';
 
 export default function Contactos() {
@@ -7,7 +7,8 @@ export default function Contactos() {
 function sendEmail(e) {
   e.preventDefault();
 
-  emailjs.sendForm('gmail', 'template_s3lf', e.target, 'YOUR_USER_ID')
+  emailjs.sendForm('gmail', 'template_s3lf', e.target, 
+  'user_3Zue9mTqDov8BymXNzcME')
     .then((result) => {
         console.log(result.text);
     }, (error) => {
